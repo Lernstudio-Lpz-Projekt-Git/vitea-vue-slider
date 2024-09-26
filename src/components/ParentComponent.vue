@@ -24,7 +24,7 @@
     sliderValue2.value = newValue;
   });
   
-  // Optional: Synchronisation in beide Richtungen
+  // Optional: Synchronisation in beide Richtungen 
   watch(sliderValue2, (newValue) => {
     sliderValue1.value = newValue;
   });
